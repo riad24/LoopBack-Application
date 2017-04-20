@@ -1,0 +1,29 @@
+{
+  "name": "Attendee",
+  "plural": "people",
+  "base": "Application",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "required": true
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "dob": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

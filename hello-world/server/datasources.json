@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mydb": {
+    "host":"localhost",
+    "port":"27017",
+    "url":"",
+    "database":"loopbackdb",
+    "password":"mypassword",
+    "name": "",
+    "user":"me",
+    "connector": "mongodb"
+  }
+}

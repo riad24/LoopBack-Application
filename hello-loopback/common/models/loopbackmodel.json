@@ -1,0 +1,27 @@
+{
+  "name": "loopbackmodel",
+  "plural": "people",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "FirstName": {
+      "type": "string",
+      "required": true
+    },
+    "class": {
+      "type": "string",
+      "required": true
+    },
+    "roll": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
